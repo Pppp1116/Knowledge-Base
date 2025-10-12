@@ -1,0 +1,19 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\GraphicsDrivers]
+"DisablePStateManagement"=dword:00000001
+"DisableDevicePowerRequired"=dword:00000000
+"DefaultD3TransitionLatencyActivelyUsed"=dword:00000000
+"DefaultD3TransitionIdleShortTimeThreshold"=dword:00002710
+"DefaultD3TransitionIdleLongTimeThreshold"=dword:0000ea60
+"DefaultD3TransitionIdleVeryLongTimeThreshold"=dword:0000ea60
+"DefaultD3TransitionLatencyIdleShortTime"=dword:00013880
+"DefaultD3TransitionLatencyIdleLongTime"=dword:000222e0
+"DefaultD3TransitionLatencyIdleVeryLongTime"=dword:00030d40
+"DefaultD3TransitionLatencyIdleNoContext"=dword:0003d090
+"DefaultD3TransitionLatencyIdleMonitorOff"=dword:0003d090
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\GraphicsDrivers\Smm]
+"IdentityMappedPassthrough"=dword:00000001
+"ForceDmaRemapping"=dword:00000002
+"ForceEnableIommu"=dword:00000002
